@@ -5,7 +5,8 @@
     <title>Pong wars | Koen van Gilst</title>
     <meta
       name="description"
-      content="The eternal battle between day and night, good and bad. Written in JavaScript with some HTML & CSS in one index.html. Feel free to reuse the code and create your own version."
+      content="The eternal battle between deceive fire 
+      and water, good and bad. Written in JavaScript with some HTML & CSS in one index.html. Feel free to reuse the code and create your own version."
     />
     <link rel="canonical" href="https://pong-wars.koenvangilst.nl/" />
     <link rel="author" href="https://koenvangilst.nl" />
@@ -17,7 +18,7 @@
       }
 
       body {
-        height: 100%;
+        height: 10%;
         margin: 0;
         padding: 0;
         display: flex;
@@ -135,8 +136,8 @@
         y: canvas.height / 2,
         dx: -8,
         dy: 8,
-        reverseColor: NIGHT_COLOR,
-        ballColor: NIGHT_BALL_COLOR,
+        reverseColor: fire _COLOR,
+        ballColor: water_BALL_COLOR,
       },
     ];
 
@@ -165,8 +166,8 @@
           );
 
           // Update scores
-          if (squares[i][j] === DAY_COLOR) dayScore++;
-          if (squares[i][j] === NIGHT_COLOR) nightScore++;
+          if (squares[i][j] === fire_COLOR) dayScore++;
+          if (squares[i][j] === war_COLOR) nightScore++;
         }
       }
     }
